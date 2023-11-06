@@ -1,4 +1,109 @@
 /* Your styles here */
 body{
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #eee;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+header .logo{
+    background-color: #222f3f;
+}
+.logo img{
+    width: 100px;
+    padding: 10px 0 10px 20px;
+}
+nav{
+    background-color: #364759;
+    color: #ecf4fc;
+    padding: 10px;
+}
+nav li{
+    
+    display: inline;
+    
+}
+nav a{
+    
+    padding: 0 10px;
+    color: #fff;
+}
+main{
+    margin: 20px;
+    
+}
+.text-center{
+    text-align: center;
+}
+.orange{
+    background-color: #f76402;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+.orange a{
+    color: #fff;
+    padding: 0 10px;
+}
+.green{
+    background:  url("../images/bg-image.png") no-repeat;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    padding: 30px 0;
+    margin-bottom: 20px;
+}
+.green h1{
+    font-size: 30px;
+}
+.green h2{
+    font-size: 15px;
+}
+.Shopnow{
+    background-color: #fff;
+}
+.Shopnow p{
+    padding:10px 0 0 10px;
+}
+.Images-Shopnow{
+    display: inline-block;
+}
+.Images-Shopnow img{
+    width: 440px;
+    height: 340px;
+    padding: 10px;
+    border-radius: 30px;
+}
+figure img{
+    width: 100%;
+}
+figcaption{
+    text-align: center;
+}
+figcaption a{
+    color: #1f5d6e;
+    font-weight: bold;
+}
+footer {
+    text-align: center;
+}
+footer div.top{
+    background-color: #364759;
+    text-align: center;
+    padding: 10px 0;
+}
+footer div a {
+    color: #fff;
+    
+}
+
+footer img{
+    width: 100px;
+}
+footer .logoFooter{
+    background-color: #222f3f;
+    padding: 10px 0;
 }
